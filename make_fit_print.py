@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates
 from datetime import datetime
 
+
 def read_data(filename):
 	f= open(filename,"r")
 	date=[]; mass=[]
